@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".GameStartActivity">
+    tools:context=".GameStartActivity"
+    android:background="@drawable/bg01">
 
     <TextView
         android:layout_width="match_parent"
@@ -14,7 +15,8 @@
         android:text="가위 바위 보 게임"
         android:textSize="50sp"
         android:textStyle="bold"
-        android:layout_marginTop="420sp"/>
+        android:layout_marginTop="420sp"
+        android:background="@color/material_dynamic_neutral90"/>
 
     <EditText
         android:id="@+id/userName"
@@ -23,6 +25,7 @@
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:hint="닉네임을 입력해주세요"
+        android:background="@color/material_dynamic_neutral90"
         android:textSize="20dp"/>
 
     <android.widget.Button
