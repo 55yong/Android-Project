@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameEndActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="userName"
+        android:textSize="60sp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/result"
+        android:layout_marginTop="100sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="n승 n패 n무"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:gravity="center" />
+    <android.widget.Button
+        android:id="@+id/returnBtn"
+        android:layout_marginTop="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="처음으로 돌아가기"
+        android:textSize="30sp" />
+
+</LinearLayout>
